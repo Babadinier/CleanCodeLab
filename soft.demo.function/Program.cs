@@ -14,13 +14,9 @@ namespace soft.demo.function
             var milk = new Product(MILK, 2m);
 
             AddProduct(basket, milk);
+            AddProduct(basket, milk);
 
-            foreach (var product in basket.Products)
-            {
-                System.Console.WriteLine($"Product {product.Name} with price {product.Price}");
-            }
-
-            System.Console.WriteLine($"Basket price: {basket.Price}");
+            System.Console.WriteLine($"Basket: Number of product: {basket.Products.Count }, total price: {basket.Price}");
         }
 
         public static void AddProduct(Basket basket, Product product)
