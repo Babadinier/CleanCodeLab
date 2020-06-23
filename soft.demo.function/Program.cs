@@ -13,25 +13,38 @@ namespace soft.demo.function
 
             var milk = new Product(MILK, 2m);
 
-            AddProduct(basket, milk);
-            AddProduct(basket, milk);
+            AddProductAndUpdateBasket(basket, milk);
+            AddProductAndUpdateBasket(basket, milk);
 
-            System.Console.WriteLine($"Basket: Number of product: {basket.Products.Count }, total price: {basket.Price}");
+            var totalPrice = CalculateBasketTotal(basket, null);
+
+            System.Console.WriteLine($"Basket: Number of product: {basket.Products.Count }, total price: {totalPrice}");
         }
 
-        public static void AddProduct(Basket basket, Product product)
+        public static void AddProductAndUpdateBasket(Basket basket, Product product)
         {
-            var existingProduct = basket.Products.SingleOrDefault(x => x.Name == product.Name);
+            Product existingProduct = SearchProduct(basket, product);
             if (existingProduct == null)
             {
                 if (product.Name == MILK)
-                {
-                    product.Price = 0.5m * product.Price;
-                }
+                    product.Price = product.Price * 0.5m;
                 basket.Products.Add(product);
             }
 
             basket.Price = basket.Products.Sum(product => product.Price);
+        }
+
+        public static Product SearchProduct(Basket basket, Product product)
+        {
+            return basket.Products.SingleOrDefault(x => x.Name == product.Name);
+        }
+
+        public static decimal CalculateBasketTotal(Basket basket, bool? hasPromo = null)
+        {
+            if (!Convert.ToBoolean(hasPromo))
+                return basket.Price;
+            else
+                return basket.Price * 0.90m;
         }
     }
 
