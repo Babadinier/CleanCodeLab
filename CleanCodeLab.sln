@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soft.demo.naming", "soft.de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soft.demo.function", "soft.demo.function\soft.demo.function.csproj", "{E643E854-B524-4F74-B967-29679877CFA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soft.demo.structure", "soft.demo.structure\soft.demo.structure.csproj", "{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{E643E854-B524-4F74-B967-29679877CFA8}.Release|x64.Build.0 = Release|Any CPU
 		{E643E854-B524-4F74-B967-29679877CFA8}.Release|x86.ActiveCfg = Release|Any CPU
 		{E643E854-B524-4F74-B967-29679877CFA8}.Release|x86.Build.0 = Release|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Debug|x64.Build.0 = Debug|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Debug|x86.Build.0 = Debug|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Release|x64.ActiveCfg = Release|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Release|x64.Build.0 = Release|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Release|x86.ActiveCfg = Release|Any CPU
+		{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
