@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace soft.demo.classes
+namespace soft.demo.srp
 {
     class Program
     {
