@@ -15,15 +15,15 @@ namespace soft.demo.comment
     {
         static void Main(string[] args)
         {
-            var animal = new Animal(1, "Simba", Gender.M, 12, AnimalType.LION);
+            var simba = new Animal(1, "Simba", Gender.M, 12, AnimalType.LION);
 
             // if animal is male and age > 10 and animalType is Lion
-            if (animal.Gender == Gender.M && animal.Age > 10 && animal.Type == AnimalType.LION)
+            if (simba.Gender == Gender.M && simba.Age > 10 && simba.Type == AnimalType.LION)
             {
-                animal.IsOld();
+                simba.IsOld();
             }
 
-            System.Console.WriteLine(animal.ToString());
+            System.Console.WriteLine(simba.ToString());
         }
 
         public class Animal
