@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soft.demo.function", "soft.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soft.demo.structure", "soft.demo.structure\soft.demo.structure.csproj", "{21C4836C-9DD1-4545-A7FA-8FBFCEB1F93C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "soft.demo.testing", "soft.demo.testing", "{DA96883B-C4C6-4765-9031-74B9C3F604A7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soft.demo.comment", "soft.demo.comment\soft.demo.comment.csproj", "{38AED29B-21DB-4627-A430-1A6A6C3302D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "soft.demo.classes", "soft.demo.classes", "{DBBE8151-C4B5-4090-B0AE-C55E714B47AF}"
